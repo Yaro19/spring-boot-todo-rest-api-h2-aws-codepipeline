@@ -10,12 +10,12 @@ public class HelloWorldController {
 
 	@GetMapping(path = "/")
 	public String successResponse() {
-		return "successResponse";
+		return "Ha funzionato alla grandeee";
 	}
 
 	@GetMapping(path = "/hello-world")
 	public String helloWorld() {
-		return "Hello World";
+		return "Hello World, I'm using devops";
 	}
 
 	@GetMapping(path = "/hello-world-bean")
